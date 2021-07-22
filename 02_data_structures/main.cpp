@@ -19,7 +19,7 @@ int main() {
   Person zero = Person("Eliaz", 14);
   cout << zero.name << endl;
 
-  // Dynamic gestion of memory
+  // Dynamic gestion of memory (Pointers)
   Person *p = new Person("Zero Requiem", 14);
   cout << p->age << endl;
 }
